@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Day3Fragment"
+    android:background="@color/colorPrimary">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/timeline_background"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/workshop"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="5dp"/>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_height="50dp"
+                        android:layout_width="match_parent"
+                        android:text="Augmented Reality Workshop"
+                        android:layout_marginLeft="5dp"
+                        android:gravity="center_vertical"
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+                        android:textColor="@android:color/white"/>
+                    <TextView
+                        android:layout_height="50dp"
+                        android:layout_width="match_parent"
+                        android:text="9:00AM - 5:00PM"
+                        android:layout_marginLeft="5dp"
+
+                        android:textSize="20dp"
+                        android:textColor="@android:color/white"/>
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+            </LinearLayout>
+
+
+
+    </ScrollView>
+
+</FrameLayout>

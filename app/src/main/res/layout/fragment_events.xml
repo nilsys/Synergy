@@ -1,0 +1,577 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:folding-cell="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EventsFragment"
+    android:background="@color/colorPrimary">
+
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+
+            <com.ramotion.foldingcell.FoldingCell
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/machineLearningFoldingCell"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:clipChildren="false"
+                android:clipToPadding="false"
+                folding-cell:additionalFlipsCount="1"
+                folding-cell:cameraHeight="30"
+                folding-cell:backSideColor="@color/button">
+                ​
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@android:color/holo_green_dark"
+                    android:visibility="gone">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:background="#fffff4"
+                            android:fontFamily="@font/lato"
+                            android:gravity="center"
+                            android:text="MACHINE LEARNING"
+                            android:textAlignment="center"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:textSize="23dp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="190dp"
+                            android:background="@drawable/machinelearning"
+                            android:fontFamily="@font/lato"
+                            android:paddingLeft="5dp"
+                            android:paddingTop="5dp"
+                            android:paddingRight="5dp"
+                            android:text="'Machine Intelligence is the last invention that humanity will ever need to make.' - Nick Bostrom. With the knowledge of Machine Learning, you have the ability to open doors of technology which we didn\'t even know existed. It is a revolution. Be a part of it by gaining knowledge about the world-changing technology at the Machine Learning Workshop brought to you by IETE-VIT this Synergy.#Awakentheinspiration #Synergy'19.\n\nRs. 900/-"
+                            android:textColor="@android:color/white" />
+
+                        <Button
+                            android:id="@+id/machineLearningRegister"
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:background="@color/button"
+                            android:fontFamily="@font/lato"
+                            android:text="REGISTER"
+                            android:textColor="@android:color/white"
+                            android:textSize="30dp" />
+                    </LinearLayout>
+
+
+                </FrameLayout>
+                ​
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/contact_us_border">
+                    <LinearLayout
+                        android:layout_height="100dp"
+                        android:layout_width="match_parent"
+                        android:orientation="horizontal">
+                        <ImageView
+                            android:layout_height="match_parent"
+                            android:layout_width="100dp"
+                            android:src="@drawable/machinelearningheader"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:fontFamily="@font/lato"
+                            android:gravity="center_vertical"
+                            android:paddingLeft="15dp"
+                            android:text="MACHINE LEARNING"
+                            android:textColor="@color/colorAccent"
+                            android:textSize="27dp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+                </FrameLayout>
+                ​
+            </com.ramotion.foldingcell.FoldingCell>
+            <com.ramotion.foldingcell.FoldingCell
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/cyberSecurityFoldingCell"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:clipChildren="false"
+            android:clipToPadding="false"
+            folding-cell:additionalFlipsCount="1"
+            folding-cell:cameraHeight="30"
+            folding-cell:backSideColor="@color/button">
+            ​
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/holo_green_dark"
+                android:visibility="gone">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:background="#fffff4"
+                        android:fontFamily="@font/lato"
+                        android:gravity="center"
+                        android:text="CYBER SECURITY"
+                        android:textAlignment="center"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="23dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="190dp"
+                        android:background="@drawable/cybersecurity"
+                        android:fontFamily="@font/lato"
+                        android:paddingLeft="5dp"
+                        android:paddingTop="5dp"
+                        android:paddingRight="5dp"
+                        android:text="Have you ever wondered how our information in icloud/Google drive stays protected? Has is ever struck to you, how valuable information is? Synergy'19's Cybersecurity workshop is the session you should register. Safety of Information is the key in IT world. The 2-day workshop Starts with key issues plugging the information security world, penetration testing to wireless hacking, SQL injection.\n\nRs. 800/-"
+                        android:textColor="@android:color/white" />
+
+                    <Button
+                        android:id="@+id/cyberSecurityRegister"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:background="@color/button"
+                        android:fontFamily="@font/lato"
+                        android:text="REGISTER"
+                        android:textColor="@android:color/white"
+                        android:textSize="30dp" />
+                </LinearLayout>
+
+
+            </FrameLayout>
+            ​
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/contact_us_border">
+                <LinearLayout
+                    android:layout_height="100dp"
+                    android:layout_width="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/cybersecurityheader" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:fontFamily="@font/lato"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="15dp"
+                        android:text="CYBER SECURITY"
+                        android:textColor="#ffffff"
+                        android:textSize="27dp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </FrameLayout>
+            ​
+        </com.ramotion.foldingcell.FoldingCell>
+            <com.ramotion.foldingcell.FoldingCell
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/roboticsFoldingCell"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:clipChildren="false"
+            android:clipToPadding="false"
+            folding-cell:additionalFlipsCount="1"
+            folding-cell:cameraHeight="30"
+            folding-cell:backSideColor="@color/button">
+            ​
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/holo_green_dark"
+                android:visibility="gone">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="#fffff4"
+                    android:fontFamily="@font/lato"
+                    android:gravity="center"
+                    android:text="VOICE CONTROLLED ROBOTICS"
+                    android:textAlignment="center"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="23dp"
+                    android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="190dp"
+                        android:background="@drawable/robotics"
+                        android:fontFamily="@font/lato"
+                        android:paddingLeft="5dp"
+                        android:paddingRight="5dp"
+                        android:text="Have you ever seen a robot which responds to your voice? Want to make the same? Then let's design and build a voice controlled bot using speech recognition. And what's more, it'll be operated by an android application using Bluetooth communication made by you. So join us this Synergy at the Voice Controlled Robotics Workshop. P.S. Hardware and Software Kits are on us! #Awakentheinspiration #Synergy'19.\n\nRs. 1000/-"
+                        android:paddingTop="5dp"
+                        android:textColor="@android:color/white" />
+
+                    <Button
+                        android:id="@+id/roboticsRegister"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:background="@color/button"
+                        android:fontFamily="@font/lato"
+                        android:text="REGISTER"
+                        android:textColor="@android:color/white"
+                        android:textSize="30dp" />
+                </LinearLayout>
+
+
+            </FrameLayout>
+            ​
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/contact_us_border">
+                <LinearLayout
+                    android:layout_height="100dp"
+                    android:layout_width="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/roboticsheader" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:fontFamily="@font/lato"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="15dp"
+                        android:text="VOICE CONTROLLED ROBOTICS"
+                        android:textColor="#ffffff"
+                        android:textSize="27dp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </FrameLayout>
+            ​
+        </com.ramotion.foldingcell.FoldingCell>
+            <com.ramotion.foldingcell.FoldingCell
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/arFoldingCell"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:clipChildren="false"
+                android:clipToPadding="false"
+                folding-cell:additionalFlipsCount="1"
+                folding-cell:cameraHeight="30"
+                folding-cell:backSideColor="@color/button">
+                ​
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@android:color/holo_green_dark"
+                    android:visibility="gone">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:background="#fffff4"
+                            android:fontFamily="@font/lato"
+                            android:gravity="center"
+                            android:text="AUGMENTED REALITY"
+                            android:textAlignment="center"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:textSize="23dp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="190dp"
+                            android:background="@drawable/ar"
+                            android:fontFamily="@font/lato"
+                            android:paddingLeft="5dp"
+                            android:paddingTop="5dp"
+                            android:paddingRight="5dp"
+                            android:text="Haven't you always been fascinated by the virtual world? With the virtual science being applied at almost every field of entertainment now, aren't you even a teensy bit curious about how these things actually do what they do? How they create a world in another world? All your queries will be answered this SYNERGY in the Augmented Reality Workshop. Hold interactive worlds in the palm of your hand. Come join us in Synergy'19. \n\nRs. 200/- "
+                            android:textColor="@android:color/white" />
+
+                        <Button
+                            android:id="@+id/arRegister"
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:background="@color/button"
+                            android:fontFamily="@font/lato"
+                            android:text="REGISTER"
+                            android:textColor="@android:color/white"
+                            android:textSize="30dp" />
+                    </LinearLayout>
+
+
+                </FrameLayout>
+                ​
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/contact_us_border">
+                    <LinearLayout
+                        android:layout_height="100dp"
+                        android:layout_width="match_parent"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="100dp"
+                            android:layout_height="match_parent"
+                            android:src="@drawable/arheader" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:fontFamily="@font/lato"
+                            android:gravity="center_vertical"
+                            android:paddingLeft="15dp"
+                            android:text="AUGMENTED REALITY"
+                            android:textColor="#ffffff"
+                            android:textSize="27dp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+                </FrameLayout>
+                ​
+            </com.ramotion.foldingcell.FoldingCell>
+
+            <com.ramotion.foldingcell.FoldingCell
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/codeOlympiaFoldingCell"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:clipChildren="false"
+                android:clipToPadding="false"
+                folding-cell:additionalFlipsCount="1"
+                folding-cell:cameraHeight="30"
+                folding-cell:backSideColor="@color/button">
+                ​
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@android:color/holo_green_dark"
+                    android:visibility="gone">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:background="#fffff4"
+                            android:fontFamily="@font/lato"
+                            android:gravity="center"
+                            android:text="CODE-OLYMPIA"
+                            android:textAlignment="center"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:textSize="23dp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="180dp"
+                            android:background="@drawable/code"
+                            android:fontFamily="@font/lato"
+                            android:paddingLeft="5dp"
+                            android:paddingTop="5dp"
+                            android:paddingRight="5dp"
+                            android:text="In thrilling 12-hours non-stop coding fest, participants will be given programming questions of varying levels, and there will be a plethora of coding languages to choose from, in order to solve them. This event will be held in association with HackerRank. All the participants will get participation certificates, and the top 5 teams will get exciting goodies, from HackerRank. Cash prizes worth 9K to be won.\n\nRs.250/-"
+                            android:textColor="@android:color/white" />
+
+                        <Button
+                            android:id="@+id/codeOlympiaRegister"
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:background="@color/button"
+                            android:fontFamily="@font/lato"
+                            android:text="REGISTER"
+                            android:textColor="@android:color/white"
+                            android:textSize="30dp" />
+                    </LinearLayout>
+
+
+                </FrameLayout>
+                ​
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/contact_us_border">
+                    <LinearLayout
+                        android:layout_height="100dp"
+                        android:layout_width="match_parent"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="100dp"
+                            android:layout_height="match_parent"
+                            android:src="@drawable/codeheader" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:fontFamily="@font/lato"
+                            android:gravity="center_vertical"
+                            android:paddingLeft="15dp"
+                            android:text="CODE-OLYMPIA"
+                            android:textColor="#ffffff"
+                            android:textSize="27dp"
+                            android:textStyle="bold"
+                            />
+                    </LinearLayout>
+                </FrameLayout>
+                ​
+            </com.ramotion.foldingcell.FoldingCell>
+            <com.ramotion.foldingcell.FoldingCell
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/paperFoldingCell"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:clipChildren="false"
+                android:clipToPadding="false"
+                folding-cell:additionalFlipsCount="1"
+                folding-cell:cameraHeight="30"
+                folding-cell:backSideColor="@color/button">
+            ​
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/folding_cell_background"
+                android:visibility="gone">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:background="#fffff4"
+                        android:fontFamily="@font/lato"
+                        android:gravity="center_vertical"
+                        android:text="PAPER PRESENTATION"
+                        android:textAlignment="center"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="23dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="190dp"
+                        android:background="@drawable/paper"
+                        android:fontFamily="@font/lato"
+                        android:paddingLeft="5dp"
+                        android:paddingRight="5dp"
+                        android:text="How determined are you in pitching your research on a platform? How interested are you in getting an expert review in your ideas? If yes, then we are back with Paper Presentation session with IETE-ISF's Synergy'19.Mail your CSE/IT/EEE/ECE/EIE related abstracts to synergypapers19@gmail.com by 20th January 2019. If your idea gets selected, it will be published in the IJRASET and the IJET journals.\n\nRs. 500/-"
+                        android:paddingTop="5dp"
+                        android:textColor="@android:color/white" />
+
+                    <Button
+                        android:id="@+id/paperRegister"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:background="@color/button"
+                        android:fontFamily="@font/lato"
+                        android:text="REGISTER"
+                        android:textColor="@android:color/white"
+                        android:textSize="30dp" />
+                </LinearLayout>
+
+
+            </FrameLayout>
+            ​
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/contact_us_border"
+                >
+                <LinearLayout
+                    android:layout_height="100dp"
+                    android:layout_width="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/paperheader" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:fontFamily="@font/lato"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="15dp"
+
+                        android:text="PAPER PRESENTATION"
+                        android:textColor="#ffffff"
+                        android:textSize="27dp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </FrameLayout>
+
+            </com.ramotion.foldingcell.FoldingCell>
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>

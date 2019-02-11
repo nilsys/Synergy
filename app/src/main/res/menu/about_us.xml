@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navigation_vit"
+        android:icon="@drawable/vit"
+        android:title="VIT Vellore" />
+
+    <item
+        android:id="@+id/navigation_iete"
+        android:icon="@drawable/ietelogo"
+        android:title="IETE-ISF" />
+
+    <item
+        android:id="@+id/navigation_synergy"
+        android:icon="@drawable/synergys"
+        android:title="Synergy" />
+</menu>

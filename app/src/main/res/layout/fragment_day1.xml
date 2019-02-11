@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Day1Fragment"
+    android:background="@color/colorPrimary">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/timeline_background"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/inaugration"/>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_height="50dp"
+                        android:layout_width="match_parent"
+                        android:text="Inaugration"
+                        android:layout_marginLeft="5dp"
+                        android:gravity="center_vertical"
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+                        android:textColor="@android:color/white"/>
+                    <TextView
+                        android:layout_height="50dp"
+                        android:layout_width="match_parent"
+                        android:text="8:30AM - 10:00AM"
+                        android:layout_marginLeft="5dp"
+
+                        android:textSize="20dp"
+                        android:textColor="@android:color/white"/>
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginTop="12dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/timeline_background"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/workshop"/>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_height="50dp"
+                        android:layout_width="match_parent"
+                        android:text="Machine Learning Workshop"
+                        android:layout_marginLeft="5dp"
+                        android:gravity="center_vertical"
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+                        android:textColor="@android:color/white"/>
+                    <TextView
+                        android:layout_height="50dp"
+                        android:layout_width="match_parent"
+                        android:text="10:00AM - 6:00PM"
+                        android:layout_marginLeft="5dp"
+
+                        android:textSize="20dp"
+                        android:textColor="@android:color/white"/>
+                </LinearLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginTop="12dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/timeline_background"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/workshop"/>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_height="50dp"
+                        android:layout_width="match_parent"
+                        android:text="Cyber Security Workshop"
+                        android:layout_marginLeft="5dp"
+                        android:gravity="center_vertical"
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+                        android:textColor="@android:color/white"/>
+                    <TextView
+                        android:layout_height="50dp"
+                        android:layout_width="match_parent"
+                        android:text="10:00AM - 6:00PM"
+                        android:layout_marginLeft="5dp"
+
+                        android:textSize="20dp"
+                        android:textColor="@android:color/white"/>
+                </LinearLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginTop="12dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/timeline_background"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/workshop"/>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_height="50dp"
+                        android:layout_width="match_parent"
+                        android:text="Voice Controlled Robotics Workshop"
+                        android:layout_marginLeft="5dp"
+                        android:gravity="center_vertical"
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+                        android:textColor="@android:color/white"/>
+                    <TextView
+                        android:layout_height="50dp"
+                        android:layout_width="match_parent"
+                        android:text="10:00AM - 6:00PM"
+                        android:layout_marginLeft="5dp"
+
+                        android:textSize="20dp"
+                        android:textColor="@android:color/white"/>
+                </LinearLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginTop="12dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/timeline_background"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/pres2"/>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_height="50dp"
+                        android:layout_width="match_parent"
+                        android:text="Paper Presentation(CS/IT)"
+                        android:layout_marginLeft="5dp"
+                        android:gravity="center_vertical"
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+                        android:textColor="@android:color/white"/>
+                    <TextView
+                        android:layout_height="50dp"
+                        android:layout_width="match_parent"
+                        android:text="10:00AM - 6:00PM"
+                        android:layout_marginLeft="5dp"
+
+                        android:textSize="20dp"
+                        android:textColor="@android:color/white"/>
+                </LinearLayout>
+
+            </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/timeline_background"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/cultural"
+                />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_height="50dp"
+                    android:layout_width="match_parent"
+                    android:text="Dinner"
+                    android:layout_marginLeft="5dp"
+                    android:gravity="center_vertical"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/white"/>
+                <TextView
+                    android:layout_height="50dp"
+                    android:layout_width="match_parent"
+                    android:text="6:00PM - 9:00PM"
+                    android:layout_marginLeft="5dp"
+
+                    android:textSize="20dp"
+                    android:textColor="@android:color/white"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>

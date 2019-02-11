@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".AboutUsFragment"
+    android:background="#333333">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:src="@drawable/vit"
+                android:layout_marginTop="10dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="VIT Vellore"
+                android:textSize="30dp"
+                android:gravity="center"
+                android:fontFamily="@font/lato"
+                android:textColor="#ffffff"
+                />
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:text="VIT University or VIT, formerly called Vellore Engineering College, is an Indian institute of higher education and a deemed university under Section 3 of the UGC Act. Founded in 1984, as Vellore Engineering College, by G. Viswanathan, the institution offers 20 undergraduate, 34 postgraduate, four integrated and four research programs. It has campuses in Vellore and Chennai, Tamil Nadu, India. Foundation stone for VIT Bhopal campus at Sehore, Madhya Pradesh was laid down by Mr. Shivraj Singh Chauhan (Chief Minister of Madhya Pradesh) on 20 October 2016.VIT has been ranked No. 1 private university and 13th overall best university ahead of many IITs and NITs in India, by National Institutional Ranking Framework published by Ministry of Human Resource Development, Government of India in April 2016"
+                android:textSize="15dp"
+                android:textColor="#ffffff"
+                android:layout_marginLeft="10dp"
+                android:fontFamily="@font/lato"
+                android:layout_marginRight="10dp"
+                />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:src="@drawable/ietelogo"
+                android:layout_marginTop="10dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="IETE-ISF"
+                android:textSize="30dp"
+                android:gravity="center"
+                android:fontFamily="@font/lato"
+                android:textColor="#ffffff"
+                />
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:text="The Institution of Electronics and Telecommunication Engineers (IETE) is India's leading recognized professional society devoted to the advancement of Science and Technology of Electronics, Telecommunication and IT. The Institution provides leadership in Scientific and Technical areas of direct importance to the national development and economy. Government of India has recognized IETE as a Scientific and Industrial Research Organization (SIRO) and also notified as an educational Institution of national eminence. The objectives of IETE focus on advancing electro-technology."
+                android:textSize="15dp"
+                android:textColor="#ffffff"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:fontFamily="@font/lato"
+                />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:src="@drawable/synergylogoaboutus"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="Synergy 2019"
+                android:textSize="30dp"
+                android:gravity="center"
+                android:fontFamily="@font/lato"
+                android:textColor="#ffffff"
+                />
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:text="Synergy 2019 is an International Technical Symposium organized by Institution of Electronics and Telecommunication Engineers (IETE-ISF) in association with School of Electronics and Telecommunication Engineering - VIT University, Vellore. Symposium offers a one-of-a-kind experience to students by providing an array of opportunities under one umbrella."
+                android:textSize="15dp"
+                android:textColor="#ffffff"
+                android:fontFamily="@font/lato"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="20dp"
+                />
+
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>
+

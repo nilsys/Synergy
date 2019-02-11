@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "598564598410",
+    "firebase_url": "https://synergy-19.firebaseio.com",
+    "project_id": "synergy-19",
+    "storage_bucket": "synergy-19.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:598564598410:android:ea69bc1233f2da0d",
+        "android_client_info": {
+          "package_name": "com.storageapp.synergy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "598564598410-plcc2a0835igvs2vsf7fd9gu2h55gnal.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.storageapp.synergy",
+            "certificate_hash": "c7f81c106191fe6062602f66d88d79f8f7373e28"
+          }
+        },
+        {
+          "client_id": "598564598410-b9i1sid8hhrh9j308tsiadn93l8j604j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDLcbAKhmeqBhI-2tZZi4hThS8dtnXi2YU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "598564598410-b9i1sid8hhrh9j308tsiadn93l8j604j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
